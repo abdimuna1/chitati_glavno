@@ -43,7 +43,7 @@ dependencies {
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'androidx.recyclerview:recyclerview:1.2.0'
     implementation 'com.mcxiaoke.volley:library:1.0.19'
-    implementation 'com.shehabic.droppy:Droppy:0.2.5.2@aar'
+    //implementation 'com.shehabic.droppy:Droppy:0.2.5.2@aar'
     implementation 'org.androidannotations:androidannotations:4.0.0'
     implementation 'org.androidannotations:androidannotations-api:4.0.0'
     implementation 'org.apache.commons:commons-lang3:3.6'
