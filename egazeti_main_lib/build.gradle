@@ -69,13 +69,14 @@ dependencies {
     implementation 'com.rengwuxian.materialedittext:library:2.1.4'
    // implementation 'com.github.or-dvir.EasySettings:easysettings-basic:1.1.4' // this produces a bug
     // pdf
-    //implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
+    implementation 'com.github.barteksc:android-pdf-viewer:3.2.0-beta.1'
     api 'com.daimajia.easing:library:2.0@aar'
     api 'com.daimajia.androidanimations:library:2.3@aar'
     implementation 'com.hbb20:ccp:2.3.4'
     // fix guava issue
     configurations {
         all*.exclude group: 'com.google.guava', module: 'listenablefuture'
+        all*.exclude  module: 'XAnimation'
     }
     implementation "de.halfbit:pinned-section-listview:1.0.0"
     implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
